@@ -1,0 +1,14 @@
+KDF_GEN tool provides two functionalit for KDF key derived from CV_ROOT_KEY and CV_COMMOON_KEY
+
+Usage:
+    1. Writer CV_ROOT_KEY string into cv_rootkey.dat
+    2. writer CV_COMMON_KEY string into cv_commonkey.dat
+    3. run kdf_gen.elf, it will generate kdf_derived_key.dat and kdf_test_vector.dat 
+
+Note:
+    1. All keys derived from CV_ROOT_KEY and CV_COMMON_KEY are stored in kdf_derived_key.dat
+    2. kdf_test_vector.dat involves all test vector for all keys derived.
+
+ATE integration:
+    1. Refer to kdf_operation_run in aes.c and kdf_gen.c and make it integrate into your tester
+    2. Create your own test vector for your production testing.

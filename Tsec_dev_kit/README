@@ -1,0 +1,12 @@
+
+* Change log:
+  - Initiate TA SDK version 1.0
+
+* SDK Overview
+  Tsec_SDK files tree
+  - demo
+    includes helloworld TA and CA
+  - export
+    Essential fils for TA/CA built
+  Note: you can refer to secure TA user manual in docs folder to know more information about TA development
+        in more detail.
