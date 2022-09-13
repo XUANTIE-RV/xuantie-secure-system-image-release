@@ -1,0 +1,6 @@
+
+Tools directory includes all script files and ELF tools for secure fnction
+- bin2ext4
+- fastboot
+- imagesign
+- kdf

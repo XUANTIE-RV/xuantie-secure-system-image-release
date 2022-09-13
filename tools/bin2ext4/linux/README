@@ -1,0 +1,18 @@
+
+* bin2ext4 utilty usage guide
+  bin2ext4 utility is used to create ext4 file system using some binary file.
+  tf and tee images must upgrade with ext4 file, which will reduce a lot of development
+  job for secure images upgrade.
+
+* usage
+1.Create tf.ext4 file 
+  ./bin2ext4 tf.ext4 trust_firmware.bin
+
+2.Create tee.ext4 file
+  ./bin2ext4 tee.ext4 tee.bin
+
+3.Create stashtf.ext4 file for trust firmware upgrade file
+  ./bin2ext4 stashtf.ext4 trust_firmware.bin
+
+4.Create stashtee.ext4 file for tee upgrade file
+  ./bin2ext4 stashtee.ext4 tee.bin

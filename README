@@ -1,0 +1,17 @@
+
+Xuantie security system SDK tree overview
+
+Docs:
+    All document for reference
+
+Prebuild:
+    Include all images across platform for secure functions evaluation. 
+    All images related with REE are released and used by ROOTFS system image maker
+
+Tools:
+    A suite tools used to help designer develop secure functions faster. Such as image files signature, upgrade
+    files making method, burn tools. 
+
+Tsec_dev_kit:
+    Tsec SDK is dedicated to develop customized TA which is deployed in Linux system. It demonstrates a simple
+    TA/CA application for reference.

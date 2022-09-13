@@ -1,0 +1,21 @@
+
+Images for light-fm-a platform are released to demonstrate security function in light-a platform. 
+
+It includes following files:
+- u-boot-with-spl.bin
+- tee.ext4
+- tf.ext4
+- boot.ext4
+- rootfs.linux.ext4
+
+Notes: tf.ext4 and tee.ext4 is made by bin2ext4 utilty with original trust_firmware.bin and tee.bin. that
+means you need to re-make them once tee.bin and trusted_firmware.bin changes.
+
+There is two case for image burn as below:
+
+1. light-a chip is raw one and never provisioned. you can ignore and go to next case if your board is already
+   burned and can boot sucdessfully. otherwise, you have to refer to BOOTROM burn method chapter5.1 in secure
+   function user manual
+
+2. light-a chip could be burned with other images directly in case of UBOOT image is integerate. you can refer
+   to UBOOT burn method chapter5.2 in secure function use manual
